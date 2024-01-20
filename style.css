@@ -35,14 +35,15 @@ img {
   width: 100%;
 }
 
+/*style the images separately and text with a class of their own each
+
 /* ---  Groups & Items --- */
-/*modifies the about group*/
 .about-group {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-/*modifies the group section*/
+
 .stay-group {
   display: flex;
   flex-direction: row;
@@ -66,7 +67,7 @@ img {
   flex: 50%;
   margin: 10px;
 }
-/*shifts the paragraph text to left/center for the flex row in about*/
+
 .text-right {
   text-align: left;
   align-items: center;
@@ -180,23 +181,23 @@ header {
   display: flex;
   flex-direction: column;
 }
-/*Modifies the about section*/
+
 .about-group {
   display: flex;
   flex-direction: column;
 }
-/*nav bar row*/
+
  header nav {
     font-size: 20px;
     display: flex;
     justify-content: space-around;
   }
-/*nav bar ul style*/
+
   header nav ul {
     display: flex;
     padding-left: 0px;
   }
-/*sets the form up to display column*/
+
   form {
     display: flex;
     flex-direction: column;
@@ -205,12 +206,12 @@ header {
   form button {
     width: 100%;
   }
-/*sets the label style*/
+
   form label {
     font-size: 20px;
     width: 50%;
   }
-/*modifies the inputs in the form*/
+
   form input, select {
     border: 2px solid gray;
     font-size: 20px;
@@ -218,11 +219,11 @@ header {
     width: 60%;
     min-width: 50%;
   }
-/*separately adjusts the select input since it has a different */
+
   .select {
     min-width: 55%;
   }
-/*sets the conatiner width for the form elements*/
+
   .wrapper {
     display: flex;
     justify-content: space-between;
@@ -233,13 +234,12 @@ header {
     width: 100%;
     padding-bottom: 20px;
   }
-/*width property for the idea images*/
+
   .item-ideas {
     width: 100%;
   }
 }
 
-/*modifies the host section*/
 .host {
   flex-direction: column;
   
