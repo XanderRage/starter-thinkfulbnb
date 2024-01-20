@@ -180,7 +180,7 @@ footer p {
 
 /* -------  Media Query ------- */
 /*mobile setup*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 600px) {
 header {
   display: flex;
   flex-direction: column;
@@ -221,11 +221,7 @@ header {
     font-size: 20px;
     border-radius: 5px;
     width: 60%;
-    min-width: 50%;
-  }
-
-  .select {
-    min-width: 55%;
+    min-width: 60%;
   }
 
   .wrapper {
