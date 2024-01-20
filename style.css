@@ -49,6 +49,7 @@ img {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
+  
 }
 
 .item {
@@ -57,7 +58,7 @@ img {
 }
 
 .item-ideas {
-  width: 48%;
+  max-width: 48%;
   margin: 10px;
 }
 
@@ -118,6 +119,7 @@ form {
   display: flex;
   justify-content: space-between;
   align-items: center;
+flex-wrap: wrap;
 }
 
 
