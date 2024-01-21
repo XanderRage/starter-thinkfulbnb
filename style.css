@@ -1,7 +1,6 @@
 /* -------  General Styles ------- */
 body {
   font-family: "Lato", sans-serif;
-  width: 100%;
 }
 
 h2 {
@@ -32,9 +31,9 @@ section.alternate-background {
   font-size: 20px;
 }
 
-
-
-/*style the images separately and text with a class of their own each
+img {
+width: 100%;
+}
 
 /*style the images separately and text with a class of their own each
 
@@ -43,7 +42,7 @@ section.alternate-background {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 100%;
 }
 
 .stay-group {
@@ -52,11 +51,11 @@ section.alternate-background {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
-  
+  border: solid;
 }
 
 .item {
-  max-width: 10%;
+  max-width: 25%;
   margin: 10px;
 }
 
@@ -180,7 +179,7 @@ footer p {
 
 /* -------  Media Query ------- */
 /*mobile setup*/
-@media all and (max-width: 600px) {
+@media all and (max-width: 768px) {
 header {
   display: flex;
   flex-direction: column;
@@ -236,7 +235,7 @@ header {
   }
 
   .item-ideas {
-    width: 100%;
+    max-width: 100%;
   }
 }
 
